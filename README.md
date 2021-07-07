@@ -16,7 +16,7 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
+- [x] Create a forked copy of this project.
 - [ ] Add your _Team Lead_ as collaborator on Github.
 - [ ] Clone your forked version of the Repository.
 - [ ] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Middleware and Routing
+
 - [ ] Describe Middleware?
+
+Middleware functions can get the request and response objects, operate on them, and (when specified) trigger some action. Examples are logging or security
 
 - [ ] Describe a Resource?
 
+ A resource could be: users, products, orders, returns, or even clients. Each resource is accessible via a unique url. It can have multiple representations.
+
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+It can send back a success message, status code or data that was created updated or deleted or can be viewed. 
+
 - [ ] How can we partition our application into sub-applications?
+
+Routing is a way to select which request handler function is executed. It does so based on the URL visited and the HTTP method used. Routing provides a way to break an application into smaller parts.
 
 ## Minimum Viable Product
 
